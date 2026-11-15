@@ -40,7 +40,11 @@ Scientific papers, reproducible analyses and practical tools provide the foundat
 
 **Work in progress · analysis hosted here.** This project examines identification-related properties across imaging modalities and processing levels. A central distinction is between matching individual-specific brain patterns and connecting data to a real-world identity. The working manuscript informs the audience summaries, but provisional numerical ratings are not presented here as final recommendations.
 
-[Explore the ratings project](https://github.com/CPernet/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings)
+[Explore the ratings project](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings)
+
+## A shared vocabulary {#glossary}
+
+What does “de-identified” mean? Is recognising the same brain the same as identifying a person? The [privacy glossary](glossary.html) explains the manuscript's terms with practical examples and comparisons across the EU, UK, US HIPAA, Australia, Québec, Canadian federal guidance and Singapore. It is written especially for researchers and study participants.
 
 ## About the initiative {#about}
 

@@ -3,7 +3,7 @@ title = "Technical evidence for legal assessment."
 nav_label = "DPOs & lawyers"
 kicker = "For data protection officers & legal professionals"
 description = "Distinguish individual specificity, practical identifiability and sensitive-information disclosure when assessing brain imaging data."
-updated = "6 November 2026"
+updated = "13 November 2026"
 +++
 ## Key messages
 
@@ -21,6 +21,8 @@ updated = "6 November 2026"
 | Attribute disclosure | Can someone learn a sensitive fact about a person? | Disclosure can occur without locating one unique record |
 
 The working manuscript explicitly limits its ratings to imaging-related properties. It is not a complete assessment of whether a particular release is anonymous under a jurisdiction's law. [2](#sources)
+
+The [cross-jurisdiction glossary](glossary.html#singling-out) provides a vocabulary bridge for multidisciplinary discussions. Its purpose is to help researchers and participants interpret terms; it does not replace the applicable legal definitions. In particular, a HIPAA de-identification outcome is not automatically a GDPR anonymity outcome.
 
 ## What the imaging evidence establishes
 
@@ -44,6 +46,12 @@ In particular, the ability to isolate a record is not, by itself, equivalent to 
 
 This summary refers to the cited consultation version, not an assumed final or binding instrument. The applicable legal position, responsibilities and safeguards require assessment for the actual processing and jurisdiction.
 
+## Pseudonymisation and recipient perspective
+
+The revised manuscript glossary separates pseudonymisation from a conclusion about anonymity. A separately protected attribution key is a safeguard; it does not decide the status of every copy for every recipient. Record which entities can identify individuals using reasonably likely means and which additional information each can obtain. Do not infer that a recipient's inability to access the key alone settles all other routes to identification. [2, 5](#sources)
+
+The manuscript's labels **Identifiable**, **Distinctive** and **Low likelihood** describe imaging-related evidence under stated assumptions. A distinctive pattern is not itself a finding of legal identifiability, and a low-likelihood label is not evidence of zero risk. [2](#sources)
+
 ## A useful joint assessment record
 
 The following is an editorial checklist for discussions between imaging and legal teams, not a statutory form:
@@ -57,7 +65,7 @@ The following is an editorial checklist for discussions between imaging and lega
 ## Sources
 
 1. Kibsgaard et al. (2026), [*Assessing metadata privacy in neuroimaging*](https://doi.org/10.1162/IMAG.a.1144). [Reproducible analyses](https://github.com/CPernet/OpenNeuro_MetaPrivAssessment).
-2. Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*: unpublished working manuscript consulted 6 November 2026. [Associated analysis](https://github.com/CPernet/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
+2. Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*: unpublished working manuscript consulted 13 November 2026. [Associated analysis](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
 3. Steeg et al. (2024), [MRI-derived face recognition](https://doi.org/10.1016/j.eclinm.2024.102930).
 4. Finn et al. (2015), [functional-connectome fingerprinting](https://doi.org/10.1038/nn.4135).
 5. EDPB, [*Guidelines 02/2026 on Anonymisation*, version 1.0](https://www.edpb.europa.eu/system/files/2026-07/edpb_guidelines_202602_anonymisation_v1_en_0.pdf), adopted for public consultation 7 July 2026; see especially sections 2.4 and 3.5. [Publication and consultation context](https://www.edpb.europa.eu/news/edpb-sheds-light-on-anonymisation-and-web-scraping-for-generative-ai-and-adopts-final-version_en).

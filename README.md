@@ -4,7 +4,7 @@ A community-maintained website connecting brain imaging privacy evidence with in
 
 ## Website and local preview
 
-Requires Python 3.11 or newer. Content is Markdown, presentation uses shared HTML templates and CSS. A small Python build converts the content into five static HTML pages; no JavaScript or server is needed to read the generated site.
+Requires Python 3.11 or newer. Content is Markdown, presentation uses shared HTML templates and CSS. A small Python build converts the content into six static HTML pages, including a shared glossary; no JavaScript or server is needed to read the generated site.
 
 ```bash
 cd /run/media/cyril/Data/BrainImagingPrivacy
@@ -25,6 +25,7 @@ Open http://localhost:8000. Rebuild after editing Markdown, templates or CSS, th
 | `docs/index.md` | Homepage text, audience cards and resource links |
 | `docs/researchers.md` | Researcher content |
 | `docs/participants.md` | Participant content |
+| `docs/glossary.md` | Plain-language terms and jurisdiction comparisons |
 | `docs/legal.md` | DPO and legal content |
 | `docs/policy.md` | Policy content |
 | `docs/_layouts/` | Shared HTML templates |

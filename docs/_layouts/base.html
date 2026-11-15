@@ -19,7 +19,7 @@
    <span>Brain Imaging<br><strong>Privacy</strong></span>
   </a>
   <nav aria-label="Main navigation">
-   {% for id, label in [('researchers', 'Researchers'), ('participants', 'Participants'), ('legal', 'DPOs & lawyers'), ('policy', 'Policymakers')] %}
+   {% for id, label in [('researchers', 'Researchers'), ('participants', 'Participants'), ('legal', 'DPOs & lawyers'), ('policy', 'Policymakers'), ('glossary', 'Glossary')] %}
    <a href="{{ id }}.html" {% if slug == id %}aria-current="page"{% endif %}>{{ label }}</a>
    {% endfor %}
   </nav>

@@ -1,4 +1,4 @@
-/* Shared design tokens: edit here to restyle all five pages. */
+/* Shared design tokens: edit here to restyle all pages. */
 :root {
   --ink:#18343c;
   --muted:#52666b;
@@ -85,7 +85,7 @@ svg {
 }
 .header nav {
   display:flex;
-  gap:26px;
+  gap:18px;
   margin-left:auto;
 }
 .header nav a {
@@ -529,6 +529,19 @@ h3 {
   width:100%;
   font-size:13px;
   margin:25px 0;
+}
+.table-scroll {
+  max-width:100%;
+  overflow-x:auto;
+  margin:25px 0;
+}
+.table-scroll table {
+  min-width:520px;
+  margin:0;
+}
+.table-scroll:focus-visible {
+  outline:3px solid #b36c22;
+  outline-offset:3px;
 }
 .prose th {
   text-align:left;

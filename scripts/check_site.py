@@ -4,7 +4,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1] / '_site'
-EXPECTED = {'index.html', 'researchers.html', 'participants.html', 'legal.html', 'policy.html'}
+EXPECTED = {'index.html', 'researchers.html', 'participants.html', 'legal.html', 'policy.html', 'glossary.html'}
 
 class Page(HTMLParser):
     def __init__(self, path):
@@ -28,7 +28,7 @@ class Page(HTMLParser):
 
 def check():
     files = {p.name for p in ROOT.glob('*.html')}
-    assert files == EXPECTED, f'Expected five pages, found: {files}'
+    assert files == EXPECTED, f'Expected {len(EXPECTED)} pages, found: {files}'
     pages = {p.resolve(): Page(p) for p in ROOT.glob('*.html')}
     count = 0
     for path, page in pages.items():

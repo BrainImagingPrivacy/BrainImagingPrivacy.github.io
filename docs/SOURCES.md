@@ -2,7 +2,7 @@
 
 ## Content pass — 6 November 2026
 
-These notes document provenance for maintainers. This file is not a sixth website page.
+These notes document provenance for maintainers. This file is a maintainer record, not a published website page.
 
 ### Published metadata paper
 
@@ -32,3 +32,12 @@ https://www.edpb.europa.eu/system/files/2026-07/edpb_guidelines_202602_anonymisa
 ## Review status
 
 Editorial drafting and source checks completed. Expert approval of the website text has not been asserted. The practical workflow and policy table are labelled as website syntheses rather than formal recommendations from the consensus group.
+
+
+## Content pass — 13 November 2026
+
+Read the current expert-consensus manuscript and its Glossary tab. Updated all four audience pages to reflect the distinction between technical individual specificity, record isolation and legal identifiability; added the three qualitative manuscript classes without provisional numeric ratings. Added representation-specific cautions about DWI/dMRI and individual/group outputs, and discussion of synthetic and federated outputs.
+
+Added `docs/glossary.md` as a sixth published page, with examples for researchers and participants and comparisons of anonymisation, de-identification and singling-out vocabulary across jurisdictions. Definitions are adapted rather than copied; the manuscript remains an unpublished source, and no private document URL or authors' correspondence is published. Replaced the manuscript's absolute brain-fingerprinting wording with a contextual explanation: matching alone does not establish identity, but identity-linked references cannot be categorically excluded.
+
+Primary checks: EDPB Guidelines 02/2026 v1.0 and official listing (consultation closed; no assumed final revision), ICO effective-anonymisation guidance, HHS HIPAA guidance, OAIC de-identification guidance, Québec's 2024 regulation, PDPC Guide to Basic Anonymisation, and Canada's federal de-identification notice. The Canadian terminology page returned 403 to the retrieval service; its glossary details are attributed to the working manuscript and corroborated through the OPC's official cross-jurisdiction comparison. Primary links appear on the glossary. These explanatory tables distinguish statutory rules, guidance and technical terminology; they do not claim equivalent legal tests. Review remains pending.

@@ -3,7 +3,7 @@ title = "Responsible research, informed decisions."
 nav_label = "Researchers"
 kicker = "For researchers & imaging professionals"
 description = "Assess the information in images, recordings and metadata together, then choose safeguards that preserve the science."
-updated = "6 November 2026"
+updated = "13 November 2026"
 +++
 ## Key messages
 
@@ -13,13 +13,15 @@ updated = "6 November 2026"
 
 ## What kind of identification is possible?
 
+**Start with the words:** the [privacy glossary](glossary.html) explains [anonymisation](glossary.html#anonymisation), [de-identification](glossary.html#de-identification) and [pseudonymisation](glossary.html#pseudonymisation), with comparisons across legal frameworks. A US HIPAA de-identification assessment is not automatically an EU anonymity assessment.
+
 | Question | Example | What it establishes |
 | --- | --- | --- |
 | Can someone recover an identity? | Matching an MRI-derived face to an identity-linked photograph | A possible route from research data to a known person |
 | Can records be distinguished or matched? | Matching a participant's connectivity patterns across sessions | Individual specificity, which may enable linkage but does not automatically reveal an identity |
 | Can sensitive information be learned? | Inferring a diagnosis when everyone in a known participant's subgroup has that diagnosis | Attribute disclosure, even without selecting one exact row |
 
-The working consensus manuscript separates re-identification from the individual specificity it operationalises as “singling out.” This technical use is broader than the legal question of whether a person is identifiable in a particular context. [2](#sources)
+The updated working consensus manuscript separates re-identification from the individual specificity it operationalises as “singling out.” Its ratings concern distinctive patterns and potential linkage, including matching across sessions, rather than a complete legal identifiability determination. [Record isolation and legal singling out](glossary.html#singling-out) need to be distinguished: a unique record alone does not establish that the corresponding person is identifiable. [2](#sources)
 
 ## Imaging representation matters
 
@@ -59,6 +61,18 @@ The following workflow synthesises the published metadata findings and the worki
 4. **Test proportionate changes:** consider coarser age resolution, broader categories or suitable noise where justified. Recheck both privacy indicators and the analyses the data must support. Adding noise alone is not evidence of a differential-privacy guarantee.
 5. **Document access and reassessment:** record the remaining assumptions, safeguards, scientific trade-offs and evidence that would prompt another review. [1, 2](#sources)
 
+## Interpret the manuscript's three classes
+
+| Manuscript class | What it describes | What it does not establish |
+| --- | --- | --- |
+| Identifiable | Directly identifying features or a plausible route to re-identification, notably facial information in unaltered structural MRI/CT | A single attack-success rate for every acquisition or population |
+| Distinctive | Individual-specific features with potential for matching or linkage | An automatic legal conclusion that every recipient can identify the person |
+| Low likelihood | Limited evidence of identification or individual matching under the stated assumptions | Zero risk, or permission to ignore metadata and context |
+
+These are ordinal expert judgements in a working manuscript, not release permissions or calibrated probabilities. Clinical DWI with few directions should not be conflated with high-resolution, many-direction research dMRI; participant-level decompositions should be distinguished from group component maps. These representation details can change an assessment. [2](#sources)
+
+Synthetic images and federated analysis also require scrutiny. Generative models can memorise training images; parameters and outputs shared by federated systems can leak information. Neither approach establishes anonymity solely by its name. [2](#sources)
+
 ## Scope and limitations
 
 The manuscript's imaging assessment concerns data without visually noticeable skull or brain abnormalities and assumes direct identifiers and annotations have been removed. Its conclusions do not transfer automatically to unusual lesions, rare conditions or identifying metadata. Its rating scales are ordinal expert judgements: a score of four out of five is not an 80% attack probability. Final numerical ratings are not reproduced on this page while the manuscript is being revised. [2](#sources)
@@ -66,6 +80,6 @@ The manuscript's imaging assessment concerns data without visually noticeable sk
 ## Sources
 
 1. **Published evidence:** Kibsgaard et al. (2026), [*Assessing metadata privacy in neuroimaging*](https://doi.org/10.1162/IMAG.a.1144). [Analysis notebooks](https://github.com/CPernet/OpenNeuro_MetaPrivAssessment) · [metaprivBIDS](https://github.com/CPernet/metaprivBIDS).
-2. **Work in progress:** Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*. Working manuscript consulted 6 November 2026; unpublished and subject to revision. [Associated analysis](https://github.com/CPernet/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
+2. **Work in progress:** Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*. Working manuscript consulted 13 November 2026; unpublished and subject to revision. [Associated analysis](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
 3. Steeg et al. (2024), [*Re-identification of anonymised MRI head images with publicly available software*](https://doi.org/10.1016/j.eclinm.2024.102930).
 4. Finn et al. (2015), [*Functional connectome fingerprinting: identifying individuals using patterns of brain connectivity*](https://doi.org/10.1038/nn.4135).

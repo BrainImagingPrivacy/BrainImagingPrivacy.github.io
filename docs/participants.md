@@ -3,13 +3,19 @@ title = "Your data. Your questions."
 nav_label = "Participants"
 kicker = "For study participants"
 description = "What brain imaging data can reveal, why researchers share them, and how to ask about the protections in your study."
-updated = "6 November 2026"
+updated = "13 November 2026"
 +++
 ## The main points
 
 - **Sharing can make research more useful.** Other researchers can check findings and use existing data to answer new questions.
 - **Removing a name is one part of protecting privacy.** Images and information collected alongside them may also need attention.
 - **The details of your study matter.** Ask what will be shared, who will have access and what protections will apply. [1, 2](#sources)
+
+## What do the privacy words mean?
+
+**A study code is not the same as anonymity.** If your scan is labelled `sub-017`, a separate key may still connect it to your name. “De-identified” can mean different things in different countries, so ask what was removed, who keeps the key and whether anyone else could recognise your information.
+
+The [plain-language glossary](glossary.html) explains [coded data](glossary.html#pseudonymisation), [anonymisation](glossary.html#anonymisation) and [de-identification across countries](glossary.html#de-identification). You do not need to learn the law: your study team should explain what these words mean in your study.
 
 ## What information is involved?
 
@@ -21,7 +27,7 @@ A study may collect brain scans or recordings alongside information such as age,
 
 Some head scans include the shape of the face. Studies have shown that facial reconstructions from MRI can be matched to photographs. Researchers may remove facial features or use access restrictions, depending on the data and the study's arrangements. [2, 3](#sources)
 
-Brain measurements can also contain patterns that help researchers recognise the same participant across two recordings. That is not the same as discovering the person's name. Learning an identity usually needs another connection, such as a photograph, an identity-linked record or prior knowledge about the person. [2, 4](#sources)
+Brain measurements can also contain patterns that help researchers recognise the same participant across two recordings. That is not the same as discovering the person's name. Recovering a name usually needs another connection, such as a photograph, an identity-linked record or prior knowledge. Privacy can also be affected without learning a name, for example if someone can connect information to you or treat you differently because of it. [2, 4](#sources)
 
 These studies describe particular methods and conditions. They do not tell us that every brain scan can identify its participant, or that any one protection removes every possible risk.
 
@@ -42,6 +48,7 @@ Privacy measures can also affect how useful the data are. For example, a broader
 - What scans, recordings and other information will you collect?
 - Will the shared information include my face or detailed demographic information?
 - Will any data be publicly accessible, or will other researchers need permission?
+- When you say “anonymous” or “de-identified”, what does that mean here?
 - Who will keep the connection between my name and study code?
 - What future uses are envisaged, and who will oversee them?
 - What choices can you offer about sharing, and what happens if I later change my mind?
@@ -52,6 +59,6 @@ Your participant information sheet and study team are the starting points for an
 ## Sources
 
 1. Kibsgaard et al. (2026), [*Assessing metadata privacy in neuroimaging*](https://doi.org/10.1162/IMAG.a.1144): published research on information accompanying OpenNeuro datasets.
-2. Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*: working manuscript consulted 6 November 2026, not yet published. The explanations here are draft summaries, not final consensus recommendations.
+2. Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*: working manuscript consulted 13 November 2026, not yet published. The explanations here are draft summaries, not final consensus recommendations.
 3. Steeg et al. (2024), [research on recognising participants from MRI-derived faces](https://doi.org/10.1016/j.eclinm.2024.102930).
 4. Finn et al. (2015), [research on matching brain-connectivity patterns across recordings](https://doi.org/10.1038/nn.4135).
