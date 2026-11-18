@@ -3,8 +3,12 @@ title = "Responsible research, informed decisions."
 nav_label = "Researchers"
 kicker = "For researchers & imaging professionals"
 description = "Assess the information in images, recordings and metadata together, then choose safeguards that preserve the science."
-updated = "13 November 2026"
+updated = "18 November 2026"
 +++
+## Consult the consensus tables
+
+The [consensus reference](consensus.html) reproduces the completed paper's classifications, paired ReID / SingleOut ratings, evidence citations and qualifications. Go directly to [structural and diffusion imaging](consensus.html#structural), [functional imaging](consensus.html#functional), [PET](consensus.html#pet) or [EEG/MEG](consensus.html#eeg-meg). Each data type has a link that can be used in an assessment or discussion.
+
 ## Key messages
 
 - **Assess the complete release.** Imaging content, participant metadata and the information available elsewhere can contribute different routes to identification.
@@ -75,11 +79,11 @@ Synthetic images and federated analysis also require scrutiny. Generative models
 
 ## Scope and limitations
 
-The manuscript's imaging assessment concerns data without visually noticeable skull or brain abnormalities and assumes direct identifiers and annotations have been removed. Its conclusions do not transfer automatically to unusual lesions, rare conditions or identifying metadata. Its rating scales are ordinal expert judgements: a score of four out of five is not an 80% attack probability. Final numerical ratings are not reproduced on this page while the manuscript is being revised. [2](#sources)
+The manuscript's imaging assessment concerns data without visually noticeable skull or brain abnormalities and assumes direct identifiers and annotations have been removed. Its conclusions do not transfer automatically to unusual lesions, rare conditions or identifying metadata. Its rating scales are ordinal expert judgements: a score of four out of five is not an 80% attack probability. The [reference tables](consensus.html) now provide the numerical ratings alongside their evidence and scope, without treating them as legal release thresholds. [2](#sources)
 
 ## Sources
 
 1. **Published evidence:** Kibsgaard et al. (2026), [*Assessing metadata privacy in neuroimaging*](https://doi.org/10.1162/IMAG.a.1144). [Analysis notebooks](https://github.com/CPernet/OpenNeuro_MetaPrivAssessment) · [metaprivBIDS](https://github.com/CPernet/metaprivBIDS).
-2. **Work in progress:** Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*. Working manuscript consulted 13 November 2026; unpublished and subject to revision. [Associated analysis](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
+2. **Completed manuscript:** Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*. Completed manuscript consulted 18 November 2026; publication pending. [Associated analysis](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
 3. Steeg et al. (2024), [*Re-identification of anonymised MRI head images with publicly available software*](https://doi.org/10.1016/j.eclinm.2024.102930).
 4. Finn et al. (2015), [*Functional connectome fingerprinting: identifying individuals using patterns of brain connectivity*](https://doi.org/10.1038/nn.4135).

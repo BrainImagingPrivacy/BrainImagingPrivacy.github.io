@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "docs"
 OUTPUT = ROOT / "_site"
 REPO = "https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io"
-PAGES = ["index", "researchers", "participants", "legal", "policy", "glossary"]
+PAGES = ["index", "researchers", "participants", "legal", "policy", "glossary", "consensus"]
 
 def build():
     env = Environment(loader=FileSystemLoader(SOURCE / "_layouts"),
