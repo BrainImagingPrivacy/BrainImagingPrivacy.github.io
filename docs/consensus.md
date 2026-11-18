@@ -155,7 +155,75 @@ Bou Hanna, E., Partarrieu, S., Berenbaum, A., Allassonnière, S., &amp; Besson, 
 
 <span id="ref-byrge-2019"></span>
 
-Byrge, L., &amp; Kennedy, D. P. (2019). High-accuracy individual identification using a “thin slice” of the functional connectome. Network Neuroscience, 3(2), 363–383. [Source]…1079 tokens truncated…/span>
+Byrge, L., &amp; Kennedy, D. P. (2019). High-accuracy individual identification using a “thin slice” of the functional connectome. Network Neuroscience, 3(2), 363–383. [Source](https://doi.org/10.1162/netn_a_00068)
+
+
+<span id="ref-cassidy-2012"></span>
+
+Cassidy, S. M., Robertson, I. H., &amp; O’Connell, R. G. (2012). Retest reliability of event-related potentials: Evidence from a variety of paradigms. Psychophysiology, 49(5), 659–664. [Source](https://doi.org/10.1111/j.1469-8986.2011.01349.x)
+
+
+<span id="ref-castanheira-2025"></span>
+
+Castanheira, J. da S., Wiesman, A. I., Taylor, M. J., &amp; Baillet, S. (2025). The lifespan evolution of individualized neurophysiological traits. Cell Reports, 44(12). [Source](https://doi.org/10.1016/j.celrep.2025.116657)
+
+
+<span id="ref-chen-2013"></span>
+
+Chen, F., Su, L., Liu, Y., &amp; Hu, D. (2013). Confirming the Diversity of the Brain after Normalization: An Approach Based on Identity Authentication. PLOS ONE, 8(1), e54328. [Source](https://doi.org/10.1371/journal.pone.0054328)
+
+
+<span id="ref-ciarrusta-2022"></span>
+
+Ciarrusta, J., Christiaens, D., Fitzgibbon, S. P., Dimitrova, R., Hutter, J., Hughes, E., Duff, E., Price, A. N., Cordero-Grande, L., Tournier, J.-D., Rueckert, D., Hajnal, J. V., Arichi, T., McAlonan, G., Edwards, A. D., &amp; Batalle, D. (2022). The developing brain structural and functional connectome fingerprint. Developmental Cognitive Neuroscience, 55, 101117. [Source](https://doi.org/10.1016/j.dcn.2022.101117)
+
+
+<span id="ref-da-silva-castanheira-2021"></span>
+
+da Silva Castanheira, J., Orozco Perez, H. D., Misic, B., &amp; Baillet, S. (2021). Brief segments of neurophysiological activity enable individual differentiation. Nature Communications, 12(1), 5713. [Source](https://doi.org/10.1038/s41467-021-25895-8)
+
+
+<span id="ref-dar-2025"></span>
+
+Dar, S. U. H., Seyfarth, M., Ayx, I., Papavassiliu, T., Schoenberg, S. O., Siepmann, R. M., Laqua, F. C., Kahmann, J., Frey, N., Baeßler, B., Foersch, S., Truhn, D., Kather, J. N., &amp; Engelhardt, S. (2025). Unconditional latent diffusion models memorize patient imaging data. Nature Biomedical Engineering, 1–15. [Source](https://doi.org/10.1038/s41551-025-01468-8)
+
+
+<span id="ref-delpozo-banos-2015"></span>
+
+DelPozo-Banos, M., Travieso, C. M., Weidemann, C. T., &amp; Alonso, J. B. (2015). EEG biometric identification: A thorough exploration of the time-frequency domain. Journal of Neural Engineering, 12(5), 056019. [Source](https://doi.org/10.1088/1741-2560/12/5/056019)
+
+
+<span id="ref-demuru-2020"></span>
+
+Demuru, M., &amp; Fraschini, M. (2020). EEG fingerprinting: Subject-specific signature based on the aperiodic component of power spectrum. Computers in Biology and Medicine, 120, 103748. [Source](https://doi.org/10.1016/j.compbiomed.2020.103748)
+
+
+<span id="ref-duan-2019"></span>
+
+Duan, D., Xia, S., Wu, Z., Wang, F., Wang, L., Lin, W., Gilmore, J. H., Shen, D., &amp; Li, G. (2019). CORTICAL FOLDINGPRINTS FOR INFANT IDENTIFICATION. Proceedings. IEEE International Symposium on Biomedical Imaging, 2019, 396–399. [Source](https://doi.org/10.1109/ISBI.2019.8759429)
+
+
+<span id="ref-finn-2015"></span>
+
+Finn, E. S., Shen, X., Scheinost, D., Rosenberg, M. D., Huang, J., Chun, M. M., Papademetris, X., &amp; Constable, R. T. (2015). Functional connectome fingerprinting: Identifying individuals using patterns of brain connectivity. Nature Neuroscience, 18(11), 1664–1671. [Source](https://doi.org/10.1038/nn.4135)
+
+
+<span id="ref-fraschini-2015"></span>
+
+Fraschini, M., Hillebrand, A., Demuru, M., Didaci, L., &amp; Marcialis, G. L. (2015). An EEG-Based Biometric System Using Eigenvector Centrality in Resting State Brain Networks. IEEE Signal Processing Letters, 22(6), 666–670. [Source](https://doi.org/10.1109/LSP.2014.2367091)
+
+
+<span id="ref-gaspar-2011"></span>
+
+Gaspar, C. M., Rousselet, G. A., &amp; Pernet, C. R. (2011). Reliability of ERP and single-trial analyses. NeuroImage, 58(2), 620–629. [Source](https://doi.org/10.1016/j.neuroimage.2011.06.052)
+
+
+<span id="ref-gorgolewski-2012"></span>
+
+Gorgolewski, K. J., Storkey, A. J., Bastin, M. E., &amp; Pernet, C. R. (2012). Adaptive thresholding for reliable topological inference in single subject fMRI analysis. Frontiers in Human Neuroscience, 6. [Source](https://doi.org/10.3389/fnhum.2012.00245)
+
+
+<span id="ref-gorgolewski-2013"></span>
 
 Gorgolewski, K. J., Storkey, A. J., Bastin, M. E., Whittle, I., &amp; Pernet, C. (2013). Single subject fMRI test–retest reliability metrics and confounding factors. NeuroImage, 69, 231–243. [Source](https://doi.org/10.1016/j.neuroimage.2012.10.085)
 
