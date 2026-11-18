@@ -4,7 +4,7 @@ from pathlib import Path
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1] / '_site'
-EXPECTED = {'index.html', 'researchers.html', 'participants.html', 'legal.html', 'policy.html', 'glossary.html'}
+EXPECTED = {'index.html', 'researchers.html', 'participants.html', 'legal.html', 'policy.html', 'glossary.html', 'consensus.html'}
 
 class Page(HTMLParser):
     def __init__(self, path):

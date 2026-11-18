@@ -4,7 +4,7 @@ A community-maintained website connecting brain imaging privacy evidence with in
 
 ## Website and local preview
 
-Requires Python 3.11 or newer. Content is Markdown, presentation uses shared HTML templates and CSS. A small Python build converts the content into six static HTML pages, including a shared glossary; no JavaScript or server is needed to read the generated site.
+Requires Python 3.11 or newer. Content is Markdown, presentation uses shared HTML templates and CSS. A small Python build converts the content into seven static HTML pages, including a shared glossary and consensus reference; no JavaScript or server is needed to read the generated site.
 
 ```bash
 cd /run/media/cyril/Data/BrainImagingPrivacy
@@ -25,6 +25,7 @@ Open http://localhost:8000. Rebuild after editing Markdown, templates or CSS, th
 | `docs/index.md` | Homepage text, audience cards and resource links |
 | `docs/researchers.md` | Researcher content |
 | `docs/participants.md` | Participant content |
+| `docs/consensus.md` | Paper Tables 1–5, modality ratings, row links and evidence references |
 | `docs/glossary.md` | Plain-language terms and jurisdiction comparisons |
 | `docs/legal.md` | DPO and legal content |
 | `docs/policy.md` | Policy content |
@@ -36,7 +37,7 @@ Metadata between `+++` delimiters uses TOML. Write the page body in Markdown. Ke
 
 ## Papers and tools
 
-- [Expert ratings](papers/expert-ratings/): the existing notebook and survey data, now grouped together. Work in progress; not yet a published paper.
+- [Expert ratings](papers/expert-ratings/): the existing notebook and survey data, now grouped together. Completed manuscript; publication pending. The [website reference](docs/consensus.md) reproduces its main tables.
 - [metaprivBIDS paper](papers/metaprivbids/): reference and links to the existing OpenNeuro analysis repository. Analyses are maintained there; software remains in its own tool repository.
 
 ## GitHub Pages

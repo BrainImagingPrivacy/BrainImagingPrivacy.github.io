@@ -3,7 +3,7 @@ title = "Your data. Your questions."
 nav_label = "Participants"
 kicker = "For study participants"
 description = "What brain imaging data can reveal, why researchers share them, and how to ask about the protections in your study."
-updated = "13 November 2026"
+updated = "18 November 2026"
 +++
 ## The main points
 
@@ -56,9 +56,13 @@ Privacy measures can also affect how useful the data are. For example, a broader
 
 Your participant information sheet and study team are the starting points for answers about your own data. In particular, ask them to explain any limits on changing a decision after data have already been shared or used.
 
+## Looking for the technical detail?
+
+The [consensus reference tables](consensus.html) show how the paper distinguishes different scans, recordings and results. The numbers are expert ratings, not the probability that you personally will be identified. Your study team can explain which entry, circumstances and protections are relevant to your data.
+
 ## Sources
 
 1. Kibsgaard et al. (2026), [*Assessing metadata privacy in neuroimaging*](https://doi.org/10.1162/IMAG.a.1144): published research on information accompanying OpenNeuro datasets.
-2. Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*: working manuscript consulted 13 November 2026, not yet published. The explanations here are draft summaries, not final consensus recommendations.
+2. Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*: completed manuscript consulted 18 November 2026, awaiting publication. The explanations here are draft summaries, not final consensus recommendations.
 3. Steeg et al. (2024), [research on recognising participants from MRI-derived faces](https://doi.org/10.1016/j.eclinm.2024.102930).
 4. Finn et al. (2015), [research on matching brain-connectivity patterns across recordings](https://doi.org/10.1038/nn.4135).

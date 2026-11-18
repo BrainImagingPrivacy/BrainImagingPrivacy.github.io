@@ -793,3 +793,23 @@ h3 {
   margin-bottom: 0;
   color: var(--muted);
 }
+
+
+/* The reference gives long evidence cells room, with horizontal table scrolling on small screens. */
+.reference-page .article-layout { grid-template-columns:180px minmax(0,1fr); gap:35px; }
+.reference-page .prose { max-width:none; }
+.reference-page .table-scroll table { min-width:760px; }
+.reference-page .prose th:first-child { width:27%; }
+.reference-page .prose td { overflow-wrap:anywhere; }
+.reference-page .prose td:nth-child(2), .reference-page .prose td:nth-child(3) { font-variant-numeric:tabular-nums; }
+.reference-page .prose td > span[id] { scroll-margin-top:2rem; }
+@media (max-width:900px) {
+  .reference-page .article-layout { grid-template-columns:1fr; }
+}
+@media print {
+  .reference-page .article-layout { display:block; }
+  .reference-page .table-scroll { overflow:visible; }
+  .reference-page .table-scroll table { min-width:0; font-size:10px; }
+  .reference-page thead { display:table-header-group; }
+  .reference-page tr { break-inside:avoid; }
+}

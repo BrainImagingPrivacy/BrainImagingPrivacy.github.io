@@ -38,7 +38,7 @@ Scientific papers, reproducible analyses and practical tools provide the foundat
 
 ### Expert ratings of identification likelihood
 
-**Work in progress · analysis hosted here.** This project examines identification-related properties across imaging modalities and processing levels. A central distinction is between matching individual-specific brain patterns and connecting data to a real-world identity. The working manuscript informs the audience summaries, but provisional numerical ratings are not presented here as final recommendations.
+**Completed manuscript · publication pending.** The expert consensus examines identification-related properties across imaging modalities and processing levels. Its paired ratings distinguish re-identification from technical individual matching. The [consensus reference tables](consensus.html) reproduce the paper's modality classifications, ratings, evidence and qualifications, with links to individual data types.
 
 [Explore the ratings project](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings)
 

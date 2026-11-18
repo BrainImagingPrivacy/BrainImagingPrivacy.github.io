@@ -1,5 +1,10 @@
 # Changes to website guidance
 
+## Completed manuscript reference tables — 2026-11-18
+
+Added `docs/consensus.md`: the four main modality tables (paper Tables 2–5), paired ratings, class labels, evidence, qualifications and stable row links; Table 1 is included as methodological context. Transcribed all table values from the current Google Doc, checking native cell spans and explicitly expanding shared EEG/MEG cells. Retained the preprocessed ASL/BOLD shared rating pair with a source note. Included the cited bibliography so evidence is accessible without opening the paper. Added navigation and audience entry points, updated the build/link checker to seven pages, and replaced claims that ratings are unavailable. Source status is completed manuscript, publication pending; no DOI or journal status is invented.
+
+
 ## Manuscript update and glossary — 2026-11-13
 
 Updated all four audience summaries from the revised expert-consensus manuscript. Added a shared glossary with plain-language examples, stable term anchors and jurisdiction comparisons, prioritising researcher and participant entry points. Clarified distinctive patterns versus legal identifiability, qualitative manuscript classes, processing-dependent assessments, and synthetic/federated output limitations. Added glossary navigation, expanded build/link validation to six pages, and corrected source/edit links to the organisation repository. Primary-source checks and draft status are recorded in `docs/SOURCES.md`.

@@ -3,8 +3,14 @@ title = "Technical evidence for legal assessment."
 nav_label = "DPOs & lawyers"
 kicker = "For data protection officers & legal professionals"
 description = "Distinguish individual specificity, practical identifiability and sensitive-information disclosure when assessing brain imaging data."
-updated = "13 November 2026"
+updated = "18 November 2026"
 +++
+## Reference the relevant data type
+
+Use the [consensus reference tables](consensus.html) to identify the exact representation, the paired ReID / technical SingleOut ratings, and the source qualifications. Direct links to individual entries can be recorded in a DPIA or disclosure assessment together with local conditions and safeguards. [How to cite a row](consensus.html#citing).
+
+The four modality tables are available for [structural/diffusion imaging](consensus.html#structural), [functional imaging](consensus.html#functional), [PET](consensus.html#pet) and [EEG/MEG](consensus.html#eeg-meg). Classifications are technical evidence for a contextual assessment, not jurisdiction-independent legal decisions.
+
 ## Key messages
 
 - **Specify the data representation and context.** “MRI data” could mean a full-head image, a cortical surface, regional measurements or a group result.
@@ -65,7 +71,7 @@ The following is an editorial checklist for discussions between imaging and lega
 ## Sources
 
 1. Kibsgaard et al. (2026), [*Assessing metadata privacy in neuroimaging*](https://doi.org/10.1162/IMAG.a.1144). [Reproducible analyses](https://github.com/CPernet/OpenNeuro_MetaPrivAssessment).
-2. Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*: unpublished working manuscript consulted 13 November 2026. [Associated analysis](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
+2. Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*: completed manuscript consulted 18 November 2026; publication pending. [Associated analysis](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
 3. Steeg et al. (2024), [MRI-derived face recognition](https://doi.org/10.1016/j.eclinm.2024.102930).
 4. Finn et al. (2015), [functional-connectome fingerprinting](https://doi.org/10.1038/nn.4135).
 5. EDPB, [*Guidelines 02/2026 on Anonymisation*, version 1.0](https://www.edpb.europa.eu/system/files/2026-07/edpb_guidelines_202602_anonymisation_v1_en_0.pdf), adopted for public consultation 7 July 2026; see especially sections 2.4 and 3.5. [Publication and consultation context](https://www.edpb.europa.eu/news/edpb-sheds-light-on-anonymisation-and-web-scraping-for-generative-ai-and-adopts-final-version_en).
