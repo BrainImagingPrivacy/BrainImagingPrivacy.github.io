@@ -3,7 +3,7 @@ title = "Responsible research, informed decisions."
 nav_label = "Researchers"
 kicker = "For researchers & imaging professionals"
 description = "Assess the information in images, recordings and metadata together, then choose safeguards that preserve the science."
-updated = "18 November 2026"
+updated = "26 November 2026"
 +++
 ## Consult the consensus tables
 
@@ -25,15 +25,15 @@ The [consensus reference](consensus.html) reproduces the completed paper's class
 | Can records be distinguished or matched? | Matching a participant's connectivity patterns across sessions | Individual specificity, which may enable linkage but does not automatically reveal an identity |
 | Can sensitive information be learned? | Inferring a diagnosis when everyone in a known participant's subgroup has that diagnosis | Attribute disclosure, even without selecting one exact row |
 
-The updated working consensus manuscript separates re-identification from the individual specificity it operationalises as “singling out.” Its ratings concern distinctive patterns and potential linkage, including matching across sessions, rather than a complete legal identifiability determination. [Record isolation and legal singling out](glossary.html#singling-out) need to be distinguished: a unique record alone does not establish that the corresponding person is identifiable. [2](#sources)
+The updated consensus preprint separates re-identification from the individual specificity it operationalises as “singling out.” Its ratings concern distinctive patterns and potential linkage, including matching across sessions, rather than a complete legal identifiability determination. [Record isolation and legal singling out](glossary.html#singling-out) need to be distinguished: a unique record alone does not establish that the corresponding person is identifiable. [2](#sources)
 
 ## Imaging representation matters
 
 Full-head structural MRI and CT can retain facial features. Published work has demonstrated matching MRI-derived facial reconstructions to photographs, making facial information a concrete concern before release. This does not establish one universal attack-success rate for every dataset. [3](#sources)
 
-The working manuscript also considers defaced and skull-stripped images, tissue and morphometric maps, PET outputs, electrophysiology and connectivity matrices. These retain different information. Defacing targets facial features; it does not necessarily remove individual-specific brain patterns. Functional-connectome studies demonstrate matching across sessions, a different task from naming a previously unknown person. [2, 4](#sources)
+The consensus preprint also considers defaced and skull-stripped images, tissue and morphometric maps, PET outputs, electrophysiology and connectivity matrices. These retain different information. Defacing targets facial features; it does not necessarily remove individual-specific brain patterns. Functional-connectome studies demonstrate matching across sessions, a different task from naming a previously unknown person. [2, 4](#sources)
 
-For PET, the working manuscript highlights tracer uptake, scanner resolution and reconstruction as relevant considerations. A modality label alone is therefore an incomplete description of a proposed release. [2](#sources)
+For PET, the consensus preprint highlights tracer uptake, scanner resolution and reconstruction as relevant considerations. A modality label alone is therefore an incomplete description of a proposed release. [2](#sources)
 
 ## What the metadata paper found
 
@@ -57,7 +57,7 @@ The paper found that these measures provide complementary information. Outliers 
 
 ## A practical assessment workflow
 
-The following workflow synthesises the published metadata findings and the working manuscript; it is an editorial aid rather than a validated certification procedure.
+The following workflow synthesises the published metadata findings and the consensus preprint; it is an editorial aid rather than a validated certification procedure.
 
 1. **Inventory the release:** images, recordings, derivatives, headers, filenames, tables and accompanying documentation.
 2. **Describe realistic scenarios:** who might obtain the data, what they might already know and which external information could support a match.
@@ -73,7 +73,7 @@ The following workflow synthesises the published metadata findings and the worki
 | Distinctive | Individual-specific features with potential for matching or linkage | An automatic legal conclusion that every recipient can identify the person |
 | Low likelihood | Limited evidence of identification or individual matching under the stated assumptions | Zero risk, or permission to ignore metadata and context |
 
-These are ordinal expert judgements in a working manuscript, not release permissions or calibrated probabilities. Clinical DWI with few directions should not be conflated with high-resolution, many-direction research dMRI; participant-level decompositions should be distinguished from group component maps. These representation details can change an assessment. [2](#sources)
+These are ordinal expert judgements in a consensus preprint, not release permissions or calibrated probabilities. Clinical DWI with few directions should not be conflated with high-resolution, many-direction research dMRI; participant-level decompositions should be distinguished from group component maps. These representation details can change an assessment. [2](#sources)
 
 Synthetic images and federated analysis also require scrutiny. Generative models can memorise training images; parameters and outputs shared by federated systems can leak information. Neither approach establishes anonymity solely by its name. [2](#sources)
 
@@ -84,6 +84,6 @@ The manuscript's imaging assessment concerns data without visually noticeable sk
 ## Sources
 
 1. **Published evidence:** Kibsgaard et al. (2026), [*Assessing metadata privacy in neuroimaging*](https://doi.org/10.1162/IMAG.a.1144). [Analysis notebooks](https://github.com/CPernet/OpenNeuro_MetaPrivAssessment) · [metaprivBIDS](https://github.com/CPernet/metaprivBIDS).
-2. **Completed manuscript:** Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*. Completed manuscript consulted 18 November 2026; publication pending. [Associated analysis](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
+2. **Preprint:** Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*. [arXiv:2611.32330](https://arxiv.org/abs/2611.32330), posted 24 November 2026. Website source consulted 18 November 2026. [Associated analysis](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
 3. Steeg et al. (2024), [*Re-identification of anonymised MRI head images with publicly available software*](https://doi.org/10.1016/j.eclinm.2024.102930).
 4. Finn et al. (2015), [*Functional connectome fingerprinting: identifying individuals using patterns of brain connectivity*](https://doi.org/10.1038/nn.4135).

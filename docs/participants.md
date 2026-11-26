@@ -3,7 +3,7 @@ title = "Your data. Your questions."
 nav_label = "Participants"
 kicker = "For study participants"
 description = "What brain imaging data can reveal, why researchers share them, and how to ask about the protections in your study."
-updated = "18 November 2026"
+updated = "26 November 2026"
 +++
 ## The main points
 
@@ -63,6 +63,6 @@ The [consensus reference tables](consensus.html) show how the paper distinguishe
 ## Sources
 
 1. Kibsgaard et al. (2026), [*Assessing metadata privacy in neuroimaging*](https://doi.org/10.1162/IMAG.a.1144): published research on information accompanying OpenNeuro datasets.
-2. Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*: completed manuscript consulted 18 November 2026, awaiting publication. The explanations here are draft summaries, not final consensus recommendations.
+2. Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*: [arXiv:2611.32330](https://arxiv.org/abs/2611.32330), posted 24 November 2026. Website source consulted 18 November 2026. The explanations here are draft summaries, not final consensus recommendations.
 3. Steeg et al. (2024), [research on recognising participants from MRI-derived faces](https://doi.org/10.1016/j.eclinm.2024.102930).
 4. Finn et al. (2015), [research on matching brain-connectivity patterns across recordings](https://doi.org/10.1038/nn.4135).

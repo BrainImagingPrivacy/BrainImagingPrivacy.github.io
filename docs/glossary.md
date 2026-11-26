@@ -3,11 +3,11 @@ title = "Privacy terms, explained."
 nav_label = "Glossary"
 kicker = "For researchers & study participants"
 description = "What privacy words mean in brain imaging, and why their meaning changes between legal frameworks."
-updated = "13 November 2026"
+updated = "26 November 2026"
 +++
 ## Start here
 
-**“Anonymous”, “de-identified” and “coded” are not interchangeable.** A label alone does not tell you whether someone can be identified, who can access the data, or which law applies. This glossary adapts the working consensus manuscript for readers without legal training. The jurisdiction tables distinguish legislation from regulatory guidance; they do not establish equivalent legal tests. [1–8](#sources)
+**“Anonymous”, “de-identified” and “coded” are not interchangeable.** A label alone does not tell you whether someone can be identified, who can access the data, or which law applies. This glossary adapts the consensus preprint for readers without legal training. The jurisdiction tables distinguish legislation from regulatory guidance; they do not establish equivalent legal tests. [1–8](#sources)
 
 **For participants:** ask your study team what the term means for your data, who could reconnect them to you, and what information will be shared. **For researchers:** record the framework, recipient, available additional information and assessment date alongside the term.
 
@@ -91,7 +91,7 @@ Continue with [research guidance](researchers.html), [participant questions](par
 
 Bracketed numbers in the tables refer to these sources. Adapted from the manuscript's glossary and checked against the following primary guidance on **13 November 2026**. This is an explanatory draft, not a determination about a particular dataset.
 
-1. Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*, unpublished working manuscript and glossary consulted 13 November 2026. [Associated analysis](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
+1. Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*, [arXiv:2611.32330](https://arxiv.org/abs/2611.32330), posted 24 November 2026. Glossary source consulted 13 November 2026. [Associated analysis](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
 2. EDPB, [Guidelines 02/2026 on Anonymisation, v1.0](https://www.edpb.europa.eu/system/files/2026-07/edpb_guidelines_202602_anonymisation_v1_en_0.pdf). Adopted for consultation 7 July 2026; the [official listing](https://www.edpb.europa.eu/documents/guideline/guidelines-022026-on-anonymisation_en) marks consultation closed. This page does not assume a final post-consultation version.
 3. ICO, [How do we ensure anonymisation is effective?](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-sharing/anonymisation/how-do-we-ensure-anonymisation-is-effective/) and [DPA 2018, section 171](https://www.legislation.gov.uk/ukpga/2018/12/section/171).
 4. HHS, [HIPAA de-identification guidance](https://www.hhs.gov/hipaa/for-professionals/special-topics/de-identification/index.html), including §164.514 and Expert Determination / Safe Harbor.
