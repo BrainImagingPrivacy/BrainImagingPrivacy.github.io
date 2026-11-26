@@ -3,15 +3,15 @@ title = "Consensus reference tables"
 nav_label = "Consensus tables"
 kicker = "For researchers, DPOs & governance teams"
 description = "Imaging classifications, paired likelihood ratings, evidence and assessment considerations from the completed consensus manuscript."
-updated = "18 November 2026"
-status = "Completed manuscript · Publication pending"
-evidence_note = "These tables reproduce the completed manuscript's classifications, ratings and qualifications. Website explanations are identified separately. The paper citation will be updated when publication details are available."
+updated = "26 November 2026"
+status = "Preprint available · arXiv:2611.32330"
+evidence_note = "These tables reproduce the completed manuscript's classifications, ratings and qualifications. Website explanations are identified separately. The paper is available as an arXiv preprint; journal publication details will be added when available."
 +++
 ## Use this reference {#use-this-reference}
 
 This page brings the paper's four modality tables together so a proposed data release can be discussed without reopening the manuscript. Each data type has a permanent link, and the cited evidence is listed below. The [researcher page](researchers.html) explains assessment workflows; the [DPO page](legal.html) explains how the technical evidence fits a legal assessment.
 
-**Source:** Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*. Completed manuscript, awaiting publication; tables checked against the source on **18 November 2026**. This page is a dated transcription, not a claim that the paper has been published or peer reviewed.
+**Source:** Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*. [arXiv:2611.32330](https://arxiv.org/abs/2611.32330), posted **24 November 2026**. Tables were transcribed from the completed manuscript and checked on **18 November 2026**. The arXiv record provides the public preprint; this does not imply peer review or journal acceptance.
 
 ### Read the two ratings separately
 
@@ -129,9 +129,9 @@ This methodological table concerns the association between **expert ratings**, n
 
 Use the modality heading or an individual data-type link to share the exact entry. For a dated assessment, record:
 
-> Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*, completed manuscript (publication pending). Brain Imaging Privacy consensus reference tables, source checked 18 November 2026, paper Table [number], data type [name]. Accessed [date].
+> Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*, [arXiv:2611.32330](https://arxiv.org/abs/2611.32330) (2026), preprint. Brain Imaging Privacy consensus reference tables, source checked 18 November 2026, paper Table [number], data type [name]. Accessed [date].
 
-The corresponding Markdown is versioned in [the website repository](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/blob/main/docs/consensus.md). Its Git history provides a record of changes. Once the paper is public, its DOI or preprint link should replace the publication-pending citation; none is invented here.
+The corresponding Markdown is versioned in [the website repository](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/blob/main/docs/consensus.md). Its Git history provides a record of changes. The citation links to the public preprint. Journal publication details will be added when available.
 
 ## Evidence cited in the modality tables {#evidence}
 

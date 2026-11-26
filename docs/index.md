@@ -38,7 +38,7 @@ Scientific papers, reproducible analyses and practical tools provide the foundat
 
 ### Expert ratings of identification likelihood
 
-**Completed manuscript · publication pending.** The expert consensus examines identification-related properties across imaging modalities and processing levels. Its paired ratings distinguish re-identification from technical individual matching. The [consensus reference tables](consensus.html) reproduce the paper's modality classifications, ratings, evidence and qualifications, with links to individual data types.
+**Preprint available:** [arXiv:2611.32330](https://arxiv.org/abs/2611.32330), posted 24 November 2026. The expert consensus examines identification-related properties across imaging modalities and processing levels. Its paired ratings distinguish re-identification from technical individual matching. The [consensus reference tables](consensus.html) reproduce the paper's modality classifications, ratings, evidence and qualifications, with links to individual data types.
 
 [Explore the ratings project](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings)
 
@@ -52,4 +52,4 @@ Brain Imaging Privacy brings together evidence and expert perspectives on the re
 
 The website is being developed alongside an expert-consensus paper. It is designed for community maintenance: contributors can propose evidence and corrections through GitHub, with review before changes to guidance. Cyril Pernet coordinates the initial development; additional maintainers and reviewers can join through the contribution process.
 
-**Current status:** the audience pages now contain source-linked summaries of the published metadata study and the working consensus manuscript, adapted for each readership. The summaries await expert review. Content-update dates are shown separately from any future approval or review dates.
+**Current status:** the audience pages now contain source-linked summaries of the published metadata study and the consensus preprint, adapted for each readership. The summaries await expert review. Content-update dates are shown separately from any future approval or review dates.

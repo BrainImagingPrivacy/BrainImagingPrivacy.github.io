@@ -3,7 +3,7 @@ title = "Policy grounded in imaging evidence."
 nav_label = "Policymakers"
 kicker = "For policymakers"
 description = "Support useful data sharing with safeguards matched to the information, the research setting and the evidence."
-updated = "18 November 2026"
+updated = "26 November 2026"
 +++
 ## The policy question
 
@@ -11,7 +11,7 @@ Sharing brain imaging data supports checking results and reusing existing resear
 
 ## What the evidence says
 
-**Brain imaging outputs differ.** Full-head images may retain recognisable facial information; a regional summary or connectivity matrix retains different features. The working consensus manuscript examines these representations separately, across modalities and processing levels. It focuses on imaging properties under stated assumptions rather than issuing a complete legal determination for every use. [2](#sources)
+**Brain imaging outputs differ.** Full-head images may retain recognisable facial information; a regional summary or connectivity matrix retains different features. The consensus preprint examines these representations separately, across modalities and processing levels. It focuses on imaging properties under stated assumptions rather than issuing a complete legal determination for every use. [2](#sources)
 
 **Distinctiveness is not the same as recovering an identity.** Matching a person's brain-connectivity patterns across recordings is a demonstrated scientific capability. Whether this enables identification outside that research setting depends on additional information and opportunities for linkage. [2, 3](#sources)
 
@@ -54,5 +54,5 @@ New matching methods, accessible reference information and changing acquisition 
 ## Sources
 
 1. **Published study:** Kibsgaard et al. (2026), [*Assessing metadata privacy in neuroimaging*](https://doi.org/10.1162/IMAG.a.1144). [OpenNeuro analysis notebooks](https://github.com/CPernet/OpenNeuro_MetaPrivAssessment).
-2. **Completed manuscript:** Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*. Completed manuscript consulted 18 November 2026; publication pending. [Associated analysis](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
+2. **Preprint:** Pernet et al., *An expert consensus on identification likelihood in NeuroImaging data*. [arXiv:2611.32330](https://arxiv.org/abs/2611.32330), posted 24 November 2026. Website source consulted 18 November 2026. [Associated analysis](https://github.com/BrainImagingPrivacy/BrainImagingPrivacy.github.io/tree/main/papers/expert-ratings).
 3. Finn et al. (2015), [*Functional connectome fingerprinting: identifying individuals using patterns of brain connectivity*](https://doi.org/10.1038/nn.4135).
