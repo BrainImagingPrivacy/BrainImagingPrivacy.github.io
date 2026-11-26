@@ -42,7 +42,7 @@ Metadata between `+++` delimiters uses TOML. Write the page body in Markdown. Ke
 
 ## GitHub Pages
 
-The workflow builds and checks pull requests. To publish when ready, select **Settings → Pages → Source: GitHub Actions**, then manually run **Build and publish website** from Actions on `main`. This uploads only `_site/`; it does not publish the research folders as website files. It does not deploy on ordinary pushes. No custom domain is configured.
+The workflow builds and checks pull requests, then automatically builds and deploys the site whenever changes reach `main`, including merged pull requests. **Settings → Pages → Source** must be **GitHub Actions**. A manual run of **Build and publish website** on `main` remains available. Only `_site/` is uploaded; research folders are not published as website files. No custom domain is configured.
 
 ## Contributions and status
 
